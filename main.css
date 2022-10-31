@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+}
+body{
+    background: #f2f2f2;
+}
+.container{
+    margin: 13rem auto;
+}
+.container .row .card1{
+    padding: 0;
+}
+.container .row .card2{
+    padding: 0;
+}
+.container .row .card3{
+    padding: 0;
+}
+.container .row .card1 .sedans{
+    background: #e28525;
+    border-radius: 1rem 0 0 1rem;
+}
+.container .row .card2 .suvs{
+    background: #016972;
+    border-radius: 0;
+}
+.container .row .card3 .luxury{
+    background: #00403f;
+    border-radius: 0 1rem 1rem 0;
+}
+.container .row .card1 .sedans .card-body{
+    color: #f2f2f2;
+}
+.container .row .card2 .suvs .card-body{
+    color: #f2f2f2;
+}
+.container .row .card3 .luxury .card-body{
+    color: #f2f2f2;
+}
+.container .row .card1 .sedans .card-body img{
+    padding: 2rem;
+}
+.container .row .card2 .suvs .card-body img{
+    padding: 2rem;
+}
+.container .row .card3 .luxury .card-body img{
+    padding: 2rem;
+}
+.container .row .card1 .sedans .card-body h3{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2rem;
+    padding: 0 2rem 2rem 2rem;
+}
+.container .row .card2 .suvs .card-body h3{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2rem;
+    padding: 0 2rem 2rem 2rem;
+}
+.container .row .card3 .luxury .card-body h3{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2rem;
+    padding: 0 2rem 2rem 2rem;
+}
+.container .row .card1 .sedans .card-body p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    padding: 0 2rem 2rem 2rem;
+}
+.container .row .card2 .suvs .card-body p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    padding: 0 2rem 2rem 2rem;
+}
+.container .row .card3 .luxury .card-body p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    padding: 0 2rem 2rem 2rem;
+}
+.container .row .card1 .sedans .card-body a{
+    background: #f2f2f2;
+    border: 0;
+    border-radius: 2rem;
+    color: #e28525;
+    margin: 2rem 2rem;
+    padding: 1rem;
+    width: 50%;
+}
+.container .row .card2 .suvs .card-body a{
+    background: #f2f2f2;
+    border: 0;
+    border-radius: 2rem;
+    color: #016972;
+    margin: 2rem 2rem;
+    padding: 1rem;
+    width: 50%;
+}
+.container .row .card3 .luxury .card-body a{
+    background: #f2f2f2;
+    border: 0;
+    border-radius: 2rem;
+    color: #00403f;
+    margin: 2rem 2rem;
+    padding: 1rem;
+    width: 50%;
+}
+.container .row .card1 .sedans .card-body a:hover{
+    background: #e28525;
+    border: 1px solid #f2f2f2;
+    color: #f2f2f2;
+    height: 56px;
+}
+.container .row .card2 .suvs .card-body a:hover{
+    background: #016972;
+    border: 1px solid #f2f2f2;
+    color: #f2f2f2;
+    height: 56px;
+}
+.container .row .card3 .luxury .card-body a:hover{
+    background: #00403f;
+    border: 1px solid #f2f2f2;
+    color: #f2f2f2;
+    height: 56px;
+}

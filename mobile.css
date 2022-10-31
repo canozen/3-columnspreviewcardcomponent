@@ -1,0 +1,62 @@
+.container{
+    margin: 4rem 0;
+}
+.container .row{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+.container .row .card1{
+    width: 100%;
+}
+.container .row .card2{
+    width: 100%;
+}
+.container .row .card3{
+    width: 100%;
+}
+.container .row .card1 .sedans{
+    border-radius: 1rem 1rem 0 0;
+}
+.container .row .card2 .suvs{
+    border-radius: 0;
+}
+.container .row .card3 .luxury{
+    border-radius: 0 0 1rem 1rem;
+}
+.container .row .card1 .sedans .card-body img{
+    padding: 1rem;
+}
+.container .row .card2 .suvs .card-body img{
+    padding: 1rem;
+}
+.container .row .card3 .luxury .card-body img{
+    padding: 1rem;
+}
+.container .row .card1 .sedans .card-body h3{
+    padding: 1rem;
+}
+.container .row .card2 .suvs .card-body h3{
+    padding: 1rem;
+}
+.container .row .card3 .luxury .card-body h3{
+    padding: 1rem;
+}
+.container .row .card1 .sedans .card-body p{
+    padding: 0 1rem;
+}
+.container .row .card2 .suvs .card-body p{
+    padding: 0 1rem;
+}
+.container .row .card3 .luxury .card-body p{
+    padding: 0 1rem;
+}
+.container .row .card1 .sedans .card-body a{
+    margin: 1rem;
+}
+.container .row .card2 .suvs .card-body a{
+    margin: 1rem;
+}
+.container .row .card3 .luxury .card-body a{
+    margin: 1rem;
+}
